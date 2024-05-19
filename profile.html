@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Cyber Gaming</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/kumpulan.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                      <h2 style="color: #ec6090;">Cyber Gaming</h2>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Search End ***** -->
+                    <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i>
+                      </form>
+                    </div>
+                    <!-- ***** Search End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="browse.html">Browse</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="streams.html">Streams</a></li>
+                        <li><a href="profile.html" class="active">Profile <img src="assets/images/profile-header.jpg" alt=""></a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+
+          <!-- ***** Banner Start ***** -->
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="main-profile ">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEBAQEhAPFRUVFRAVEBAVDw8VEA8QFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi8uFx8zODMtNygtLisBCgoKDg0OGBAQFy0dHR0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rKy0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAgEDBAUGBwj/xABEEAACAQIDBQUGBAMFBgcAAAABAgADEQQhMQUSQVFxBiIyYYETQpGhscEHUtHwYnKCFCNDkqIVMzRTc+FUk7KzwsPx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAgEQEAAgIDAQEAAwAAAAAAAAAAAQIRMQMSIUEyE1Fh/9oADAMBAAIRAxEAPwDzmoIo1WPV0lbPu7pkQLHRt0EmYlasWMK9YsYqiNEyAJYIolgEcEkiZdId2YzCZ2HHdlwGbgqN1PSWhLWlOGqMqmyb48mAYDocjKK+1bZGk4PJu79pXaINvaS5CMcMb3E0Q7RuBZaaA8yWb6WmJX2tXa96rDyWyj5Zye8G6DHbSSkM825Tm9obWescybflExCt8zmeZhflM7WmThAMtWV284BZGDyyKLDfXTLXPz//AGer4Jv7tOk8htL8Ji6tI3p1aice65APUDI+sz5OPs14+Xr8ewUxeZCJa88xw3bLFpq1J/N6Q/8AgVmYe3WIay7mFTm5SuVHorE/IzL+G0Nf5qu5r11RWqMwVVzZibACVYGoaqLUII37sqnIimT3LjgStiRwJImk2XsxcTavXxYxW6brSSy4ek3DeTUnqB53nRyJjHi4nPqNyxjROMcSVHUSwSsGNvRwUpYTUbQXM+n0m2M1WOGZ9JpT9JmPGFCNaE3Q86q6TExB0mXV0mJVmkOaytRGEiSI2aQM5aBEpjOWiVAS/CZeH0mM/CS+J3RZdefKVnAhsqePSkDvXJ4INT1PATAxe0qlTI2VfyrfPqePymFGmc2mVokM1or1LdZCKdTr9BJB9Y0gQJjAkxVN8/hGgBI3RykwgEXk3kQHKIMjB4p6TipTdlYcRxHI8CPI5T0Hs72kXEAI1lq2zT3XA95P01HmM55sTbpGVrEEEgixBBIIPAgjQyL0iy6XmsvZlTK8N6cz2O23UrKadV1Z10JG67JzuLhiOgyzuc7dQwnNasx46q2z6lWBkykGWCSo4aa/HjP4fSZsw8YM/h9JdNlOmHaEe0JrlGHmtbSYdQTMraTEq8JvDluQSWiyTKZnpHOWpKaWsup5sFHr5DiY4Ca7ZW+coAl+JALAL5dPL9YlRZM+rwSLUe0Ym0qbmdTp5SQRBc3P7MydywHzi0FA14fM/v6Ry14QESljvG3CO54fHyEgDgOn6wCxRoJLi0UGJWbKMHkxKZyEFbK8QPIMmEYTTa4t+wRJpsBqMjKVNiRLIgzaOPamVZbBlIs4FmBGh/fnPSNhbZTFUt9bBlsKtPijeX8J4H9J5VMvZe0Hw9QVaZF9GB8LrxVh+7SL17Q0pfrL1do1N5ptkbepYnIHdqcaTEb39J98dM+YE2qkCckxMS64mJjxkXmLiv0+ksR85XW1PpK49lbTHkybSZsl5jW0mHW4TMraTErHSbw5Lqo5ErLRWMecIwne5R6N8zz+kRBlLhJOEhjmef0kQkxmW1/3xkMLnp9eEeQBAACTCEAWQvOS3CJWbhEDUzfPnKqzZ9JboJjRSUrge5++cKB1EuoYcsj/AMCFz6ED7/KYtNrEGAX0zl0yjyu9m6xmNrfCMyVtQZbK64ykK3d6QC0wgpuILGG77MbKo4nfRnqrUWzrustimQORBzBt/mHKdbhtjOlh/bMYwHumov1IJ+E4fs/i/ZYqi/AuEbluv3Df439BPULTm5ZmJdPFETCvDUQosCx5lndz8WJllQfaFrRicvX7SOPbW2lFoRpM2S8urjKYtZchM2uMjMWqO6Js5bMMrFIlkVhJShReXypRkPWOxyjgARpCwMYF4GAEi+duUAkmAiscwPUxjAIvqZQubR67cItM2ufQSQmu2dpNWlZafNgW9CbKP9N/6o2Cw/tKipcC5zY2yHE9ZZiXFSsxUZXC0wPygBUA9AIDDebCwW9Qr/xgovQKc/iflOXE73ZxCIlL2dfJTcjD1nzsWJsik5m84zaQX21TcN1LEg2I1ztY8r29IS05IiIhTe69PpHZrreUg2Mm9r8jBkuqG636SuidRzkb3dt5yFNiD6jzF7fYwC2g3CWA5kesxwbN6yysbEGBrT1t58vOeubPxAq0qdUe+qt0JGY9Dcek8jGc9E7A4jewpQ/4dRgP5Ws31LTPmjzLbhn3DoikXdsp6j6S+0Rxkeo+kxpt0W0otCEJsjDzLErkZg1fCJssUMjNdXHdE2c9mJFaNIYSUJpjTyjEQXlJWMCB1hARgMbC8ronUxa7cIIe6YshNI3JMtY2F5XhxkZFduEPgVXgTCZWy8MKlQBjZBnUPJRw9ch6ySj1ssIBQwtSoSPaVRuoOKoePlcXPwjdmcCS3tSpKrpa2b8NTw1+Er21iPb1AlJWNOkpJ3ab2QDxuVAuFGQuRlbzm72HtehdKQSruqLkJTqu5A1NlQnO+tuMprHXt7OnddjqIBNVrgnuUwysN78xUkWOnA8DPPfxHwwTFAAf8z/LvAqP9RnqOw9s4fFK9KkDZAqtTNOqrIPduGVSNMm5jW4nmnbiga+1WohvCtNWewysgZmIHURHacuMtIMsqIVJU5EEgjkQbGLExKTNttrDFKeG7jLanusxCgM3iyF76s2oExtkYT2tZEtcXu38q5n9PWdR2tw7f2e7qFKtTYZk5NkOAt4hGutc1mXFyyqfD0lYgx+0EL8O2VuU738N81xPWj9HnAYfjO6/Ddv+KH/Q/wDtkcn5a8X6h24i1PCev2kFpJN1PWY026bKIR7QmiXmuL8JmuxHhE2eMHdM1mJ8Kzdz3YJkHSNFaSgL9cpNNr3ik9398YtE6wC0HK/WCnTpf4ytj3RJ3sj0H0jyFTHONfu+v2luz8N7WqlP8xzPJRmx+AM2O3sIPbBKYAAS4A0G4hJHnkkQiJxlrcPxlTm5MeifF0iQITuuzuyK1KmPYoDiHI3bgbqMfzHgqi5PwzJAPH7LoM9aioF71aKf1O4Cj1sZ9DbNwK0aaoAL27zWzY8c+UGlMRGXmuJ/DGuPaFMSjMyJ32aohaoSDVDWBuhztqeY4za9j+w7YXFU69VVYLTAulUWWqUKuSjL31N8sxa17HQd/CGU9Ya/alPD0VfFMdxaaMzMLhlAse7xztbd0OU4DYGyqtfE1a9ZCtWu5Z1IzoUibheoFvgo1noe0MKH3Sw39whkpe41UeBm57pzHAHPUCxs7AimGJO87m9R+Z1sPKGV0xWHj34oYBaW0GKiwqUqT2GgIBpn/wBsH1nOYDANV9pu+4hc5a20Xqc/hPRe2XZ6tjce9Qg08PRpojV2y37XYikurEs+7fTLXgcvYPZP2WGdlDXyYX8VTmegGg/ZBFMzmXmOzdovQ3mp7tzu6rfui5Pppf0nXdoK+MrYX2tegpFWnS3alPu7hNintKZAK52FxcTq6HYCkmLqVVJFKpSZd1SBUoVt5DemSCN02bzGgyOW9x2FastQMbqiFabHx1WVRdmPEbwPWOJj6mItrPjwbaeGFKtUpjRSB8gfvMWZ+3iDia1vzW+AA+02PZjsw+KO+xKUQbFvfqEWuqD6k5DzkzOC65nENPg6TMQqjNiFUcyTYfOej0tmnBVzVpKWoOoWsigl6JXSoFGbLrcDMbx5TH2LspamKbEKgWhR/u8KvByndLjmL7zX4lvIzqxMr3+N+Pj8yro1ldQ6MrKc1ZSCpHkRLF0PWKKagkhVBPiIABY+Z4yy3d9ZFdtJLCG6ecJoTzjGjumanE+ETc44d0zUYod0TdhdgSH0jSH0ks1dsh++cVPeHlLgO6D5xHXjAlW9laSp18xFhEHQ9h8G1XElUALbjboOQ1W5v0E22Jwu5VwrHgXSpcalkbX13vjNb+Hu10w2PR6lglRWpMx0p75Uhul1APIEnhO/7YbFteoqgozKXHBH3gc+QPPnlxEcNuOYmMPKNo4X2VVlF903NMn3kOh+3pMSej1di08X/dO245BGHq52SqSLK44q2nW1ppuzvY96/wDtDDOAmIoewNO57ob+8upI91hum/8AKepKb0xJ/wAPdmCv7a3jpNh66+ZpOGVfWzj1ntM8Z/D7GtgtomhXU0/aD2LhhYpUuDTJ8iRa4y719J7NEInwQkiEAiTaEIBRiMMr7u9mAb7vuk8CefSXCTCAV1KygqpIBY2W+W8bXsOZsCbeR5SvGuVp1CFZjutuqouzNbIDqbSrHpvtRp/xrVbyWkd4epfcHS/KZkDeKnse9PGYWjiWVmrLVrV1W+6lr93e943K3t+YdZ2mxcB7HDUaJtdUAe2hc5uR1JM2uON6tT+b6Ko+0oEwvbM4bUpEeoVAAAAAAAAALAAaADgIRjCQ0LLUHd9ZXLqfh9ZVNptpXCNCa4Q84xw7pmoxfgWbrHDumabFjuLN2V2vivpHkVNJLMJ4ZEZB3IpEQY4S8W0yAMwJfXwu9pr8jAYYE7zsX2+agBh8XvPRtZKlt6pRXTdI99PmPMWA4VkINiDflIERROH0Zh8NhqtNHppQZDZ6bIqbp5MpEyFwqe0NUKA5UIzWF2UElQedrtbqZ4X2Z7XYjA3WnuvTJuaL3KBuLLYgqfkeU9T7H9qGxgBemibysUCljbdYqQSdcs+Ghg1ictpt7s9h8Ym7XpgkA7lQd2rT/lb7G48pnYKiyU0R6hqFQAahADPbQtbK/MiXSYEIQhACEFIOhB6c5NoBEIQgCJTsWbibZ8lGg+ZPqY0mJWqBVLtoASeggGgri71D/G/yYj7SsrJQG2epuW/mYkt8yYxnPO3TGlZEiMRIkmW0uo+E9ZURLkPd9ZdNlfRISLwmiHn+PHcM0eK8Im/2iO4ZoMV4R6zdndgyKmkaLU0ksk0/DIMan4IsDJxE2EwPeE2AGcXw67VOn94h8nB6W/7zDxeH3DcaHTy8ps7SrE0t4oOG9c9ADf7RKmvjVT0PsWtVcLSr00JFJ3u1u7ffYkHyINjbnOBGHPtBTPFgt7czYH5z138O6b4V8Xsyt46be1pG3dq0XspZOa3VT/URwMZUnEuxwGMWqi1F0OoPiU8QfOZF5zm0sE+HY18ObL/iJwHp+X6TYbL2ylawPdf8pOR/lPHpEqa/YbOEIQSrfDo2bIh8yqn6xf7JT/5dP0RR9JdCAIlEDMb3TeYj0BNhJAN9RblbMet9PSNIMAJq9pYjePsxopBfzcZqvpketvOX7Qxe73FPeIvfX2a/mPnkbD7AzVhbZD/v6nifORe3xpSv0QMmFpk1LFtHIitEasy6l4D1lJltE909ZVNlfRd2EaE1ZuC2gO4Zz2K8InRbR8BnOYkd1Zqi7CivpGivpEyNT8EWWJ4IkAX3hNjxmu94TZHWHxVTIpJAAJJIAAFySdABxMzP9lV9Th8QPM0Ko+01Q2hUpVQ9JyjJmrC1wxGvzmcO2e0P/G1/8w/SOKib4nxfs/Y5q4imxO7uVMGCpsCxqYhV48l3vlPZ8XgVqNTqaPTJNOoNVDZMp5qRqOhyIBHi9Pt1tEWviiw4q9HDsD1ul/nNngPxEqJ48HhG5tSD0HP9Sk/SHVPd6/OS2/sf2ZNWmO4dQPcP6TXYL8R8I1g64yj6061P1Ld/4Totn9o8NXsKeKwrlv8ADYmjUI4jce5b4RdZXXkw1mzu0NRLK/fXr3x68fWdJgtp0qtgji9vAcn+HH0nM7b2M1Nt9KdTdPu7pbc87rcbvW004IOev6iGG2K29h6TJnD4bb2IpiwK1LDJahPw9oMx1O90m62P2hatRWq+GqUySwKb9NiCrFTmd3LIyZ8ZzSYb2YuPxe4LCxY+EHQc2PkPnkJWdq07H/eX/L7KpmeV7bvre01rMWJZtTryAGijyH6niZNrYOtMz6FGpuSSbknUnmfl8AOEDIheYthJEW8mBoJiGMYsQQY9LQ9YktoDunrKpsraLCNCas3B7R8BnOYrwrOk2j4DOcxXhWbIuwJD6Ror6SWZ08EW0ZPBFgRfeXrNnbOa0eJes2RNrmHxVWprG7MfM/WJCEqGSYSJMYEIQgG22V2kxeGt7HE1VA0QtvU7ctxrqPQTp8J+ISVLDG4OlU51qJNOsB0vn/mE4KEA9bwlPCYsH+xYtfaZ2w9e6vfyyuR0DdZtqWFNFFpsrLYBRfQ2y8QyJPW88PB/fnOp2F2+xmHsjN7enoadYljbkKniHrceUm1Is0ry2j/XpNpM0NHtXhcT7MUN+jVud6gwU0yoGi8DnwUqbA3E2VDGg5ON08DfuN68D5H4mY24pj1vTkizKJkEwMiZNU3kgxYQBjIhJgCyyl4T1+0SWUtD1+0qu020m0I9pE0ZuA2ie4ZzmJ8Kzoto+AznMUe6s2hN2DIfSTIfSSyPT8EWNT8ErZwIBPvCW4jF3uF4gi/6TEdryI4gu39CRcyYSkov5GAaNeRACTF3YQBoSLwgEwhCAWYdSXQLqWUKeIYkW+c9ZYjMnTj0nm/Zihv4uiOCkuf6QSP9W7O47QYn2eFrvex3GA/mbuj5mXXUnC3sXtOpiMLv1ODuiHiUAUrfpvbv9M3s03YzC+zwOHH5lL/+YxYfIibqcNtu2n5hEkCFpNpKkwkwjCI9LQ9ftFllIa9ftKrtNtGhGhLZvPdo+AzmcV4VnTbR/wB205PH1rAAa/QTVPIpvK3qCVFr6yIMcnNQ2tfKLIhBKYSIRhMJF4QyDQkQgEwkQgEyIQgE3hIhAOo7C0x7Ss+VwiqBfOzG5y/pE2HbSoWpUqC+KtVVQOdtP9TJOIp1GRg6MVYaEGxEy8dtmrWek7EBqY7rL3TvXvv+RyGnKV28wcS9kpUgqqi6KAqjkqiw+kec92T7SDFLuPYVlF2GgqqPfUfUcOmnQzjmJh21mJjMCTIkxGmTIhAJllLQ9ZVLqWh6yq7TY9oSJMtHjz7aX+7bpOHxnjbqPoIQmqOVTCEIMBCEIASYQgCnWTCEAmRJhGBCEIAQhCAEIQgEytoQhIbjsn/x2F/6h/8AQ89ehCYcu3Tw6kSYQmbdMIQjIS6joev2hCOu02PCEJaH/9k=" alt="" style="border-radius: 23px;">
+                  </div>
+                  <div class="col-lg-4 align-self-center">
+                    <div class="main-info header-text">
+                      <span>Offline</span>
+                      <h4>Oreki</h4>
+                      <p>You Haven't Gone Live yet. Go Live By Touching The Button Below.</p>
+                      <div class="main-border-button">
+                        <a href="/tugas/camera.html">Start Live Stream</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 align-self-center">
+                    <ul>
+                      <li>Games Downloaded <span>3</span></li>
+                      <li>Friends Online <span>16</span></li>
+                      <li>Live Streams <span>None</span></li>
+                      <li>Clips <span>29</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="clips">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="heading-section">
+                            <h4><em>Your Most Popular</em> Clips</h4>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                          <div class="item">
+                            <div class="thumb">
+                              <img src="assets/images/clip-01.jpg" alt="" style="border-radius: 23px;">
+                              <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <div class="down-content">
+                              <h4>First Clip</h4>
+                              <span><i class="fa fa-eye"></i> 250</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                          <div class="item">
+                            <div class="thumb">
+                              <img src="assets/images/clip-02.jpg" alt="" style="border-radius: 23px;">
+                              <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <div class="down-content">
+                              <h4>Second Clip</h4>
+                              <span><i class="fa fa-eye"></i> 183</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                          <div class="item">
+                            <div class="thumb">
+                              <img src="assets/images/clip-03.jpg" alt="" style="border-radius: 23px;">
+                              <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <div class="down-content">
+                              <h4>Third Clip</h4>
+                              <span><i class="fa fa-eye"></i> 141</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                          <div class="item">
+                            <div class="thumb">
+                              <img src="assets/images/clip-04.jpg" alt="" style="border-radius: 23px;">
+                              <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i class="fa fa-play"></i></a>
+                            </div>
+                            <div class="down-content">
+                              <h4>Fourth Clip</h4>
+                              <span><i class="fa fa-eye"></i> 91</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="main-button">
+                            <a href="#">Load More Clips</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Banner End ***** -->
+
+          <!-- ***** Gaming Library Start ***** -->
+          <div class="gaming-library profile-library">
+            <div class="col-lg-12">
+              <div class="heading-section">
+                <h4><em>Your Gaming</em> Library</h4>
+              </div>
+              <div class="item">
+                <ul>
+                  <li><img src="https://uploads.turbologo.com/uploads/design/hq_preview_image/1847839/draw_svg20220113-19449-7c01hk.svg.png" alt="" class="templatemo-item"></li>
+                  <li><h4>Dota 2</h4><span>Sandbox</span></li>
+                  <li><h4>Date Added</h4><span>24/08/2036</span></li>
+                  <li><h4>Hours Played</h4><span>634 H 22 Mins</span></li>
+                  <li><h4>Currently</h4><span>Downloaded</span></li>
+                  <li><div class="main-border-button border-no-active"><a href="#">Downloaded</a></div></li>
+                </ul>
+              </div>
+              <div class="item">
+                <ul>
+                  <li><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png" alt="" class="templatemo-item"></li>
+                  <li><h4>Fortnite</h4><span>Sandbox</span></li>
+                  <li><h4>Date Added</h4><span>22/06/2036</span></li>
+                  <li><h4>Hours Played</h4><span>745 H 22 Mins</span></li>
+                  <li><h4>Currently</h4><span>Downloaded</span></li>
+                  <li><div class="main-border-button border-no-active"><a href="#">Downloaded</a></div></li>
+                </ul>
+              </div>
+              <div class="item last-item">
+                <ul>
+                  <li><img src="data:image/png;base64,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" alt="" class="templatemo-item"></li>
+                  <li><h4>CS-GO</h4><span>Sandbox</span></li>
+                  <li><h4>Date Added</h4><span>21/04/2022</span></li>
+                  <li><h4>Hours Played</h4><span>632 H 46 Mins</span></li>
+                  <li><h4>Currently</h4><span>Downloaded</span></li>
+                  <li><div class="main-border-button border-no-active"><a href="#">Downloaded</a></div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Gaming Library End ***** -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2036 <a href="#">Cyber Gaming</a> Company. All rights reserved. 
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+  </body>
+
+</html>
